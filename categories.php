@@ -137,7 +137,6 @@ $stmt2->execute();
 
                 </div>
                 <!-- /.container-fluid -->
-
             </div>
             <!-- End of Main Content -->
 
