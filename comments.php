@@ -13,7 +13,7 @@ $stmt1 = $conn->prepare('SELECT COUNT(*) FROM comments WHERE Comment_satuts=0');
 $stmt1->execute();
 $CommentsCount = $stmt1->fetchColumn();
 //to get Comments info
-$stmt2 = $conn->prepare('SELECT * FROM comments INNER JOIN users ON comments.User_id = users.User_id INNER JOIN books ON comments.Book_id= books.Book_id WHERE comments.Comment_satuts=0 ORDER BY Post_date');
+$stmt2 = $conn->prepare('SELECT table FROM comments INNER JOIN users ON comments.User_id = users.User_id INNER JOIN books ON comments.Book_id= books.Book_id WHERE comments.Comment_satuts=0 ORDER BY Post_date');
 $stmt2->execute();
 $CommentsRows = $stmt2->fetchAll(PDO::FETCH_ASSOC);
 ?>
