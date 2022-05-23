@@ -252,7 +252,7 @@ $stmt2->execute();
     $(document).ready(function() {
         $('#CategoriesTable').DataTable();
 
-        $('.EditBtn').on('click', function() {
+        $('.EditBtn').on('click', function() { // I made changes here
             $tr = $(this).closest('tr');
             var id = $(this).data('id');
             $.ajax({
@@ -267,7 +267,7 @@ $stmt2->execute();
 
                 }
             });
-            var data = $tr.children("td").map(function() {
+            var data = $tr.children("td").map(function() { // I made changes here
                 return $(this).text();
             }).get();
 
