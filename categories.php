@@ -31,7 +31,7 @@ $stmt2->execute();
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        href="https://fonts.googleapis.com/css?family=Nunito:200,2000i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
@@ -54,7 +54,7 @@ $stmt2->execute();
 <body id="page-top">
 
     <!-- Page Wrapper -->
-    <div id="wrapper">
+    <div id="wrer">
 
         <!-- Sidebar -->
 
@@ -88,7 +88,7 @@ $stmt2->execute();
                     <!-- DataTales -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">categories table (<?= $categoriesCount ?>)
+                            <h6 class="m0 font-weight-bold text-primary">categories table (<?= $categoriesCount ?>)
                             </h6>
                         </div>
                         <div class="card-body">
